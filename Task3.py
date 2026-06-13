@@ -15,9 +15,6 @@ def chatbot():
         elif message == "how are you ?":
             print("Bot: I'm fine, thanks!")
 
-        elif message == "Khana hua ?":
-            print("Bot: Haa!")
-
         elif message == "bye":
             print("Bot: Goodbye!")
             break
