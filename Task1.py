@@ -28,7 +28,7 @@ while True:   # Outer loop for multiple games
         print("Word:", display_word)
 
         if "_" not in display_word:
-            print("\n🎉 Congratulations! You guessed the word:", word)
+            print("\n Congratulations! You guessed the word:", word)
             break
 
         guess = input("Enter a letter: ").lower()
@@ -51,12 +51,12 @@ while True:   # Outer loop for multiple games
             print("Remaining chances:", max_wrong - wrong_guesses, "\n")
 
     if wrong_guesses == max_wrong:
-        print("\n❌ Game Over!")
+        print("\n Game Over!")
         print("The correct word was:", word)
 
     # Ask user if they want another word
     play_again = input("\nDo you want to play again? (y/n): ").lower()
 
     if play_again != "y":
-        print("\nThanks for playing! 👋")
+        print("\nThanks for playing! ")
         break
